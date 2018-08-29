@@ -1,0 +1,16 @@
+.section-divider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+
+.section-divider[data-color="azul"]{ background-color: #369cd6; }
+.section-divider[data-color="amarelo"]{ background-color: #f0db4f; }
+.section-divider[data-color="verde"]{ background-color: #4caf50; }
+
+.section-divider h1{
+  color: #FFF;
+  font-size: 12vh;
+  text-align: center;
+}

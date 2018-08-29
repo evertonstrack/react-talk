@@ -1,0 +1,351 @@
+/* SLIDE 1 */
+.section-home{
+   background-color: #222;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center
+}
+
+.react-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 30vh;
+  margin: 0 auto;
+  display: block;
+}
+
+.section-home h1{
+  font-size: 15vh;
+  color: #FFF;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* END: SLIDE 1 */
+
+/* SLIDE 2 */
+.section-intro{
+  background-color: #2fbc81;
+  color: #FFF;
+}
+
+.section-intro .section__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.intro-text{
+ padding-right: 10vw;
+}
+
+.intro-text h3{
+  font-size: 5vh;
+}
+
+.intro-text p{
+  font-size: 3.5vh;
+}
+
+.intro-image img{
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-transition: all .3s cubic-bezier(.175,.885,.32,1.275);
+  transition: all .3s cubic-bezier(.175,.885,.32,1.275);
+  -webkit-filter: grayscale(1);
+}
+/* END: SLIDE 2 */
+
+/* SLIDE 3 */
+.section-react-intro{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center
+}
+
+
+.react-intro-text{
+  font-size: 7vh;
+}
+
+.react-intro-text .align-right{
+  text-align: right;
+  padding-top: 5vh;
+  align-content: flex-end;
+  justify-content: flex-end;
+  display: flex;
+}
+/* END: SLIDE 3 */
+
+/* SLIDE 4 */
+.section-story{
+  overflow: hidden;
+}
+
+.section-story .section__content{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.story-text{
+  font-size: 3.5vh;
+  width: 45%;
+}
+
+.story-image{
+  position: absolute;
+  bottom: -30px;
+  right: -60vh;
+  animation: Easter-egg infinite 20s ease;
+  animation-delay: 6s;
+  animation-iteration-count: 1;
+}
+
+.story-image img{
+  height: 40vh;
+  animation: Shake infinite 2s ease-in-out;
+}
+
+
+@keyframes Easter-egg {
+  0% { right: -60vh; }
+ 15% { right: -40vh; }
+ 30% { right: -60vh; }
+ 100% { right: 100%; }
+}
+
+@keyframes Shake {
+  0% { transform: rotate(-3deg) }
+ 50% { transform: rotate(3deg) }
+ 100% {transform: rotate(-3deg) }
+}
+/* END: SLIDE 4 */
+
+/* SLIDE 5 */
+.section-faustao{
+  background: url('../../assets/images/errou.jpg') no-repeat center center;
+  background-size: cover;
+}
+.section-faustao .section__header{
+  color: #FFF;
+}
+
+.section-faustao .section__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faustao-image{
+  height: 100%;
+  flex: 1;
+}
+
+.faustao-image img{
+  height: 100%;
+  display: block;
+  margin: auto;
+  display: none;
+}
+/* END: SLIDE 5 */
+
+/* SLIDE 6 */
+.section-lib-framework .section__content{
+  display: flex;
+  align-content: center;
+}
+
+.lib-framework-text{
+  font-size: 5vh;
+}
+/* END: SLIDE 6 */
+
+/* SLIDE 7 */
+.section-react{
+  background-color: #61dafb;
+}
+.section-react .section__content{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.section-react__list{
+  font-size: 3.5vh;
+  width: 50%;
+}
+.section-react__list:nth-child(2){
+  width: 45%;
+}
+.section-react__list li{
+  margin-bottom: 5vh;
+}
+
+.section-react__list img{
+  width: 100%;
+}
+/* END: SLIDE 7 */
+
+/* SLIDE 8 */
+.section-react-pilares .section__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-react-pilares__item{
+  font-size: 5vh;
+  width: 15vw;
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3%;
+  background-color: #222;
+  border-radius: 50%;
+  color: #FFF;
+}
+.section-react-pilares__item:nth-child(1){ background-color: #369cd6; }
+.section-react-pilares__item:nth-child(2){ background-color: #f0db4f; }
+.section-react-pilares__item:nth-child(4){ background-color: #4caf50; }
+/* END: SLIDE 8 */
+
+
+/* SLIDE 9 */
+.section-react-state .section__content{
+  display: flex;
+  justify-content: space-between;
+}
+.section-react-state__text{
+  width: 60%;
+  padding-right: 5%;
+}
+.section-react-state__text p{
+  font-size: 4vh;
+}
+.section-react-state__image{
+  width: 40%;
+}
+.section-react-state__image img{
+  display: block;
+  height: 100%;
+}
+/* END: SLIDE 9 */
+
+/* SLIDE 12 */
+.section-react-lifecycle__text p,
+.section-react-lifecycle__text li{
+  font-size: 4vh;
+}
+/* END: SLIDE  12*/
+
+/* SLIDE 13 */
+.section-react-lifecycle-metodos{
+  background-color: #4caf50;
+  color: #FFF;
+}
+.section-react-lifecycle-metodos .section__header{
+  margin-bottom: 5vh;
+}
+.section-react-lifecycle-metodos__text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-react-lifecycle-metodos__text dl{
+  width: 48%;
+}
+.section-react-lifecycle-metodos__text dt{
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-bottom: 1vh;
+  background-color: #fff;
+  color:#222;
+  padding: 10px 30px;
+}
+.section-react-lifecycle-metodos__text dd{
+  font-size: 3vh;
+  margin-bottom: 3.5vh;
+}
+/* END: SLIDE 13 */
+
+/* SLIDE 14 */
+.section-react-lifecycle-image__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-react-lifecycle-image img{
+  display: block;
+  width: 100%;
+}
+/* END: SLIDE 14 */
+
+/* SLIDE 15 */
+.section-react-pros-contras{
+  background-color: #222222;
+  color: #FFF;
+}
+
+.section-react-pros-contras .section__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-react-pros-contras__text{
+  width: 45%;
+}
+
+.section-react-pros-contras__text h2{
+  font-size: 5vh
+}
+.section-react-pros-contras__text li{
+  font-size: 3.5vh;
+  margin-bottom: 3vh
+}
+
+/* END: SLIDE 15 */
+
+
+/* SLIDE 16 */
+.section-react-how-to{}
+
+.section-react-how-to .section__content{
+  display: flex;
+  justify-content: space-between;
+}
+.section-react-how-to__text{ width: 50%; }
+.section-react-how-to__text p,
+.section-react-how-to__text li{
+  font-size: 3.5vh;
+}
+.section-react-how-to__image{
+  width: 40%;
+}
+
+.section-react-how-to__image img{
+  display: block;
+  width: 100%;
+}
+/* END: SLIDE 16 */
+
+
+/* SLIDE 17 */
+.section-thing{}
+.section-thing .section__content{
+  display: flex;
+  justify-content: space-between;
+}
+.section-thing__text{
+  width: 55%;
+  font-size: 3.5vh;
+}
+/* END: SLIDE 17 */
