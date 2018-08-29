@@ -342,7 +342,6 @@
 
 
 /* SLIDE 17 */
-.section-thing{}
 .section-thing .section__content{
   display: flex;
   justify-content: space-between;
@@ -352,3 +351,21 @@
   font-size: 3.5vh;
 }
 /* END: SLIDE 17 */
+
+
+@media (max-width: 998px) {
+
+  *{
+    flex-direction: column !important;
+  }
+
+  .layout{
+    width: 100%;
+    height: auto;
+  }
+
+  .section-next,
+  .section-prev{
+    display: none !important;
+  }
+}
