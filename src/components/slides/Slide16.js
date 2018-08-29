@@ -14,8 +14,8 @@ class Slide16 extends Component {
 
         <article className="section__content">
           <div className="section-react-how-to__text">
-            <p>Primeiramente, tenha em mente que todas as libs ou frameworks são puramente javascript. A base de tudo é essa linguagem multiparadiga chamada Javascript.</p>
-            <p>Um dos maiores problemas é você pegar React, sem conhecer javascript.</p>
+            <p>Primeiramente, tenha em mente que todas as libs ou frameworks são puramente javascript, a base de tudo é essa linguagem multiparadiga.</p>
+            <p>Um dos maiores problemas trabalhar com React, sem conhecer javascript.</p>
 
             <p><strong>Começe pelo basico</strong></p>
 

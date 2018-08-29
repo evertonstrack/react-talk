@@ -16,7 +16,7 @@ class Slide2 extends Component {
           <div className="intro-text">
             <h3>Olá, tudo bem?</h3>
             <p>Eu sou Everton Strack, Front-end developer com grande foco em Design, performance e SEO. Sólido conhecimento em: HTML5, CSS3, JS, AngularJS, Grunt, Gulp, design responsivo, web mobile; Trabalhei em Agências Digitais e Fábricas de Software.</p>
-            <p>Sou entusiasta da tecnologia. Gosta de ler entre as linhas da indústria de tecnologia e tentar entender as motivações por trás de decisões que podem parecer incríveis, irracionais ou puramente idiotas. Também gosta de beleza, café medíocre e dias chuvosos.</p>
+            <p>Sou entusiasta de tecnologia, gosto de ler entre as linhas da indústria de tecnologia e tentar entender as motivações por trás de decisões que podem parecer incríveis, irracionais ou puramente idiotas. Também gosto de beleza, café medíocre e dias chuvosos.</p>
           </div>
 
           <figure className="intro-image">

@@ -105,7 +105,7 @@
   bottom: -30px;
   right: -60vh;
   animation: Easter-egg infinite 20s ease;
-  animation-delay: 6s;
+  animation-delay: 10s;
   animation-iteration-count: 1;
 }
 
@@ -170,7 +170,7 @@
 
 /* SLIDE 7 */
 .section-react{
-  background-color: #61dafb;
+  color: #000;
 }
 .section-react .section__content{
   display: flex;

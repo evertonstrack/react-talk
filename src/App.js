@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './assets/css/layout.css';
 import './assets/css/slides.css';
 
-const nextPage = () => {
+const changePage = () => {
 
   document.onkeydown = function (event) {
     let button;
@@ -20,7 +20,7 @@ const nextPage = () => {
   };
 }
 
-nextPage();
+changePage();
 
 class App extends Component {
   render() {

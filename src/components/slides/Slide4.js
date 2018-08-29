@@ -19,7 +19,7 @@ class Slide4 extends Component {
           </div>
 
           <div className="story-text">
-            <p>Mais tarde, um engenheiro do Facebook negociou com seu gerente para levar o XHP ao navegador usando JavaScript e recebeu seis meses para testá-lo. </p>
+            <p>Um engenheiro do Facebook negociou com seu gerente para levar o XHP ao navegador usando JavaScript e recebeu seis meses para fazê-lo. </p>
             <p><strong>O resultado é ReactJS.</strong></p>
           </div>
 

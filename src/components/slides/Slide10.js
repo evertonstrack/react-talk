@@ -14,8 +14,8 @@ class Slide10 extends Component {
 
         <article className="section__content">
           <div className="section-react-state__text">
-            <p>Em todos os tipos de paradigmas no desenvolvimento, passar parâmetros é extremamente comum. Com os componentes do React isso não poderia ser diferente. A diferença é que no React, usamos os props (abreviação para properties).</p>
-            <p>Um <strong>state</strong> passado de um componente pai para um componente filho, é uma <strong>prop</strong></p>
+            <p>Em todos os tipos de paradigmas no desenvolvimento, passar parâmetros é extremamente comum. Com os componentes do React isso não poderia ser diferente: a diferença é que no React, usamos os props (abreviação para properties).</p>
+            <p>Por exemplo: Um <strong>state</strong> passado de um componente pai para um componente filho, é uma <strong>prop.</strong></p>
           </div>
 
           <div className="section-react-state__image">

@@ -26,8 +26,8 @@ class Slide15 extends Component {
             <h2>Contras</h2>
             <ul>
               <li>Não usa templates (HTML dentro do JS).</li>
-              <li>Fácil de projetos maiores virarem um ninho de ratos.</li>
-              <li>Diferente do AngularJS e do Vue, o React manipula o DOM pra você, mas toda a parte de lógica da aplicação, você vai ter que fazer</li>
+              <li>Fácil de perder organização e legibilidade em projetos maiores.</li>
+              <li>Diferente dos frameworks, o React manipula o DOM pra você, mas toda a parte de lógica da aplicação, você mesmo precisa fazer</li>
             </ul>
           </div>
         </article>

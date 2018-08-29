@@ -14,8 +14,8 @@ class Slide6 extends Component {
 
         <article className="section__content">
           <div className="lib-framework-text">
-            <p><strong>Não.</strong></p>
-            <p>Angular é um framework, um conjunto de ferramentas que resolve vários problemas. Já o React é uma biblioteca, que serve para resolver um único problema, <strong>renderizar componentes.</strong></p>
+            <p><strong>Não.</strong> O React é uma <strong>biblioteca</strong>, que serve para resolver um único problema, <strong>renderizar componentes.</strong></p>
+            <p>Angular é um <strong>framework</strong>, um conjunto de ferramentas que resolve vários problemas.</p>
           </div>
 
           <figure className="lib-framework-image">
