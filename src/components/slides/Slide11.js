@@ -17,7 +17,7 @@ class Slide11 extends Component {
             <p>O método <strong>render</strong> é onde a mágica acontece. Como o nome já diz, ele é o responsável por renderizar nosso componente no navegador.</p>
             <p>É um método puro, o que significa que ele dá a mesma saída sempre que a mesma entrada é fornecida.</p>
             <p>Toda vez que o state muda, ele é chamado automaticamente e a view é atualizada.</p>
-            <p>Um ponto importande, é que o React atualiza <strong>apenas a parte do DOM que sofreu alteração.</strong></p>
+            <p>O React atualiza <strong>apenas a parte do DOM que sofreu alteração.</strong></p>
           </div>
 
           <div className="section-react-state__image">

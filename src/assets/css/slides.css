@@ -236,7 +236,7 @@
 }
 .section-react-state__image img{
   display: block;
-  height: 100%;
+  width: 100%;
 }
 /* END: SLIDE 9 */
 
@@ -244,6 +244,9 @@
 .section-react-lifecycle__text p,
 .section-react-lifecycle__text li{
   font-size: 4vh;
+}
+.section-react-lifecycle__text li{
+  margin-bottom: 3vh;
 }
 /* END: SLIDE  12*/
 
@@ -269,7 +272,7 @@
   margin-bottom: 1vh;
   background-color: #fff;
   color:#222;
-  padding: 10px 30px;
+  padding: 5px 30px;
 }
 .section-react-lifecycle-metodos__text dd{
   font-size: 3vh;

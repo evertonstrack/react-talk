@@ -7,7 +7,7 @@ class Slide13 extends Component {
     return (
       <section className="section section-react-lifecycle-metodos">
         <header className="section__header">
-          <h1>Principais métodos do ciclo de vida do react</h1>
+          <h1>Principais métodos do ciclo de vida</h1>
         </header>
 
         <article className="section__content">
