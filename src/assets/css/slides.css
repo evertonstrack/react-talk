@@ -164,8 +164,21 @@
 }
 
 .lib-framework-text{
-  font-size: 5vh;
+  font-size: 4vh;
 }
+
+.lib-framework-text{
+  width: 50%;
+}
+
+.lib-framework-image{
+  width: 50%;
+}
+
+.lib-framework-image img{
+  width: 100%;
+}
+
 /* END: SLIDE 6 */
 
 /* SLIDE 7 */
