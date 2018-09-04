@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/.sass-cache
+/src/assets/styles/css/*.css
+/src/assets/styles/css/*.map
 
 # testing
 /coverage

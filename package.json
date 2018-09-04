@@ -8,10 +8,12 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "sass --update src/assets/styles/scss:src/assets/styles/css && react-scripts start",
+    "sass:build": "sass --update src/assets/styles/scss:src/assets/styles/css --style compressed",
+    "build": "sass:build && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "sass --watch src/assets/styles/scss:src/assets/styles/css"
   },
   "devDependencies": {
     "react-router-dom": "^4.3.1"
