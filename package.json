@@ -16,6 +16,7 @@
     "watch": "sass --watch src/assets/styles/scss:src/assets/styles/css"
   },
   "devDependencies": {
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "sass": "^1.13.1"
   }
 }
