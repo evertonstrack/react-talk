@@ -131,9 +131,10 @@
 
 /* SLIDE 5 */
 .section-faustao{
-  background: url('../../assets/images/errou.jpg') no-repeat center center;
+  background: url('../../images/errou.jpg') no-repeat center center;
   background-size: cover;
 }
+
 .section-faustao .section__header{
   color: #FFF;
 }
@@ -188,7 +189,6 @@
 .section-react .section__content{
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .section-react__list{

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './assets/css/layout.css';
-import './assets/css/slides.css';
+import './assets/styles/css/layout.css';
+import './assets/styles/css/slides.css';
 
 const changePage = () => {
 
